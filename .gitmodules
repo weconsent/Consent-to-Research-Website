@@ -1,0 +1,3 @@
+[submodule "aiki"]
+	path = aiki
+	url = git@git.fabricatorz.com:aikiframework-www
