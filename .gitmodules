@@ -1,0 +1,3 @@
+[submodule "aikiframework-www/assets/extensions/ctr"]
+	path = aikiframework-www/assets/extensions/ctr
+	url = git@git.fabricatorz.com:ctr.com-extensions
