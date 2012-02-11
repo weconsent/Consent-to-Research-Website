@@ -50,7 +50,7 @@ Visit the Aiki Installer in your web browser: http://weconsent.us
 
 Enter the Database Settings from the database you created.
 
-If successful, you can log in to your default Aiki installation.
+If successful, you can log in to your default Aiki installation. Be sure to keep a record of your admin login credentials.
 
 Finally, load the custom CtR tables into your database, based on the database you created for aiki:
 
@@ -60,4 +60,20 @@ Finally, load the custom CtR tables into your database, based on the database yo
     mysql -u USERNAME -p DATABASE_NAME < InsertWidgets-sites_CtR.sql
     
 Your copy of CtR is now installed at http://weconsent.us
-    
+
+Instructions
+------------
+
+To make any functional changes to the site, sign in using your admin login credentials at: http://weconsent.us/login. This will present you with the Aiki Framework Admin panel where you can develop the website.
+
+To create and assign alpha codes, or edit the consent form, sign in using your admin login credentials at: http://weconsent.us/sage. This will present you with a dashboard with two options: Check and assign alpha codes, and Edit the Consent Form.
+
+### Check and Assign Alpha codes
+
+Sign in using your admin credentials, visit the main page of the site, and click on "Check and assign alpha codes."
+
+Under Tools, click "Create an Alpha Code". This will create a new table of Alpha Codes listing the User ID, the Alpha Code with link, and the Last Login. Each time you click the button, a single alpha code will be generated.
+
+To assign an Alpha code, copy the link in the Alpha Code column, and send that link to your alpha tester. Once the alpha tester has started the testing procedure, his or her last visit to the site will be recorded in the Last Login column.
+
+Once an alpha tester has sucessfully completed the testing process, his or her alpha code will disappear from the list of Alpha Codes. You will see an Alpha Testers column appear on this page, recording the User ID, Name and Email address of the successful alpha tester.
