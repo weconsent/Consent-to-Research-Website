@@ -57,6 +57,7 @@ Finally, load the custom CtR tables into your database, based on the database yo
     cd /srv/www/weconsent.us/public/aikiframework-www/assets/extensions/ctr
     mysql -u USERNAME -p DATABASE_NAME < CreateTables-sites_CtR.sql
     mysql -u USERNAME -p DATABASE_NAME < InsertVariable-sites_CtR.sql
+    mysql --execute="delete from aiki_widgets where app_id = '0'" -u USERNAME -p DATABASE_NAME
     mysql -u USERNAME -p DATABASE_NAME < InsertWidgets-sites_CtR.sql
     mysql -u USERNAME -p DATABASE_NAME < InsertForms-sites_CtR.sql
     
