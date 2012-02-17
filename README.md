@@ -60,6 +60,7 @@ Finally, load the custom CtR tables into your database, based on the database yo
     mysql --execute="delete from aiki_widgets where app_id = '0'" -u USERNAME -p DATABASE_NAME
     mysql -u USERNAME -p DATABASE_NAME < InsertWidgets-sites_CtR.sql
     mysql -u USERNAME -p DATABASE_NAME < InsertForms-sites_CtR.sql
+    mysql -u USERNAME -p DATABASE_NAME < AlterUsers-sites_CtR.sql
     
 Your copy of CtR is now installed at http://weconsent.us
 
